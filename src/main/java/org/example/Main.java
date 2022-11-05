@@ -22,6 +22,7 @@ public class Main {
 
         Smartphone smartphone1 = new Smartphone("iphone 11", "apple", contactList);
         System.out.println(smartphone1);
+        System.out.println();
         System.out.println(scott.getName() + " has the index of " + smartphone1.getContact(scott));
         System.out.println(smartphone1.getContactByName("sami"));
         smartphone1.removeContactByName("max");
